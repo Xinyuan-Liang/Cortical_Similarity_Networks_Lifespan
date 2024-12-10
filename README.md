@@ -226,4 +226,3 @@ Visualization
 - R v4.2.0 (https://www.r-project.org)
 - ggplot2 package v3.4.2 (https://ggplot2.tidyverse.org/)
 
-We thank the authors and developers for providing these data analysis tools.
