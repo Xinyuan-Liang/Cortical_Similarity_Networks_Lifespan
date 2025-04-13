@@ -4,7 +4,7 @@
 E-mail: <xyliang@mail.bnu.edu.cn>
 
 ## Figure：
-This folder contains the Overview of the Quality Control, Overview of the Surface Registration Strategy, and the results of all Sensitivity Analyses. The figures of the Sensitivity Analyses are provided as a visual supplement to Table S6 in the manuscript.
+This folder contains figures on the overview of quality control, the surface registration strategy, and the results of all sensitivity analyses. The sensitivity analysis figures serve as a visual supplement to Table S6 in the manuscript.
 
 (1) Overview of the quality control.png
 
