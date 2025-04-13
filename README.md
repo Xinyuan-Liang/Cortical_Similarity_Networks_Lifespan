@@ -3,7 +3,7 @@
 
 E-mail: <xyliang@mail.bnu.edu.cn>
 
-**Figure**
+## Figure：
 
 Overview of the quality control.png
 
