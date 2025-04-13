@@ -3,6 +3,52 @@
 
 E-mail: <xyliang@mail.bnu.edu.cn>
 
+**Figure**
+
+Overview of the quality control.png
+
+- Quality control of structural and functional MRI data involved a four-stage process for all participants, incorporating both automated evaluation methods and expert manual inspections. Following application of strict quality control, the final dataset included structural MR images from 33,937 healthy participants and 1,202 patients, with a subsample of 32,887 healthy participants having both structural and functional MR images.
+
+Overview of the surface registration strategy.png
+
+- For participants from the DHCP dataset (postmenstrual age ranging from 37 to 42 weeks), the following surface registration steps were undertaken. First, individual surfaces were registered to the specific templates corresponding to the postmenstrual age of the participant. Second, templates for 37, 38, 39, 41, and 42 postmenstrual weeks were registered to the 40-week template. Third, the 40-week template was registered to the fs_LR_32k adult surface template. The parcellation atlas were first transformed from the fsaverage standard space to the fs_LR_32k space and subsequently registered back to each participant's native space. For participants aged 0–24 months, individual surfaces were aligned to their corresponding month-age templates. Next, these month-age templates were aligned to the 12-month template. The 12-month template was then aligned to the fs_LR_32k surface template. On the basis of the registration information obtained from the process described above, the parcellation atlas in the standard fs_LR_32k space was first registered back to the corresponding month-age template and then to each participant’s surface space. For participants aged two years and above, the parcellation atlas in the standard adult fsaverage space was registered directly back to each participant's native space. M, month; wk, week.
+
+Validation_Bootstrap resampling.png
+
+- To assess the potential impact of sample variability on three global metrics, we conducted bootstrap analysis with 1,000 resamples. **a,** Solid lines indicate the 50th percentile curves of the main results, whereas the dotted lines denote the 95% confidence intervals. **b,** Regional-level MSS results from a single random bootstrap sample, showing brain maps of normative growth (top) and growth rate (bottom). **c,** Regional-level morphometric‒function coupling results from a single random bootstrap sample, showing brain maps of normative growth (top) and growth rate (bottom). m, month; yr, year; MSS, morphometric similarity strength.
+
+Validation_Split-half analysis for global level metrics.png
+
+- We randomly divided all the participants into two halves, stratified by age and scanner site. For mapping the growth of the morphometric network, Subgroup 1 consisted of 17,071 individuals, and Subgroup 2 included 16,866 individuals. For mapping morphology‒function coupling growth, the subgroups comprised 16,445 and 16,442 individuals, respectively. **a,** Normative growth curve and growth rate of the global variance of the morphometric networks (top panels), global mean of the morphometric networks (middle panels), and global morphology‒function coupling (bottom panels) using the samples of Subgroup 1. **b,** Normative growth curve and growth rate of global variance of the morphometric networks (top panels), global mean of the morphometric networks (middle panels), and global morphology‒function coupling (bottom panels) using samples of the Subgroup 2. The solid line (median) represents the 50% centile, and the dotted lines represent the 5%, 25%, 75%, and 95% centiles. The growth rate was assessed with the first derivative of the median line, and 95% confidence intervals (gray shading) estimated through bootstrapping with 1,000 resamples. yr, year.
+
+Validation_Split-half analysis for regional-level MSS.png
+
+- **a,** Normative growth curve (top panels) and growth rate curve (bottom panels) of regional-level MSS in Subgroup 1. **b,** Normative growth curve (top panels) and growth rate curve (bottom panels) of regional-level MSS in Subgroup 2. m, month; yr, year; MSS, morphometric similarity strength.
+
+Validation_Split-half analysis for regional-level morphology‒function coupling.png
+
+- **a,** Normative growth curve (top panels) and growth rate curve (bottom panels) of regional-level coupling in Subgroup 1. **b,** Normative growth curve (top panels) and growth rate curve (bottom panels) of regional-level coupling in Subgroup 2. m, month; yr, year.
+
+Validation_LeaveOneSiteOut.png
+
+- To assess the potential impact of site on three global metrics, we iteratively excluded one site from the dataset and re-estimated the GAMLSS models. **a,** Solid lines indicate the 50th centile curves of the main results, whereas the gray shading denotes the 95% confidence interval for both the LOSO normative growth curves (top panels) and growth rate curves (bottom panels). **b,** Regional-level MSS results for the sample with the largest site (UKB1) removed, showing brain maps of normative growth (top) and growth rate (bottom). **c,** Regional-level morphology‒function coupling results for the sample with the largest site (UKB1) removed, showing brain maps of normative growth (top) and growth rate (bottom). m, month; yr, year; MSS, morphometric similarity strength.
+
+Validation_BalancedResampling_strategyI.png
+
+- To validate whether the results are influenced by the imbalance in sample size across different age groups, we adopted a balanced resampling strategy to achieve a balanced age distribution within each age group (N = 12,414 for mapping the growth of the morphometric network and N = 8,071 for mapping the growth of morphology‒function coupling, with resampling performed 1,000 times). **a,** Normative growth curves of the global variance of the morphometric network, the global mean of the morphometric network, and global morphology‒function coupling for a representative resampling instance. **b,** Solid lines indicate 50th percentile curves of the average 50% centile curves across 1,000 resampling, the dotted lines represent 5%, 25%, 75%, and 95% centiles. The gray shading denotes the 95% confidence interval for both the normative growth curves (top panels) and growth rate curves (bottom panels). **c,** Regional-level MSS results from a single balanced resampling sample, showing brain maps of normative growth (top) and growth rate (bottom). **d,** Regional-level morphology‒function coupling results from a single balanced resampling sample, showing brain maps of normative growth (top) and growth rate (bottom). m, month; yr, year; MSS, morphometric similarity strength. 
+
+Validation_BalancedResampling_strategyII.png
+
+- To validate whether the results are influenced by the imbalance in sample size and the number of scanner sites across different age groups, we adopted a balanced resampling strategy (N = 11,114 for mapping the growth of the morphometric network and N = 7,555 for mapping the growth of morphology‒function coupling, with resampling performed 1,000 times) **a,** Solid lines indicate 50th percentile curves of the average 50% centile curves across 1,000 resampling, the dotted lines represent 5%, 25%, 75%, and 95% centiles. The gray shading denotes the 95% confidence interval for both the normative growth curves (top panels) and growth rate curves (bottom panels). **b,** Regional-level MSS results from a single balanced resampling sample, showing brain maps of normative growth (top) and growth rate (bottom). **c,** Regional-level morphology‒function coupling results from a single balanced resampling sample, showing brain maps of normative growth (top) and growth rate (bottom). m, month; yr, year; MSS, morphometric similarity strength.
+
+Validation_Cortical parcellation DK219.png
+
+- To assess the stability of lifespan curves under different parcellation strategy, we re-estimated the growth curves using all healthy participants, parcellating their cortices into 219 cortical brain regions on the basis of the modified Desikan-Killiany atlas. **a,** Normative growth curve (top panels) and growth rate (bottom panels) of the global variance of the morphometric network, global mean of the morphometric network, and global morphology‒function coupling. The gray shading of the growth rate represents the 95% confidence intervals. **b,** Regional-level MSS results, showing brain maps of normative growth (top) and growth rate (bottom). **c,** Regional-level morphology‒function coupling results, showing brain maps of normative growth (top) and growth rate (bottom). m, month; yr, year; MSS, morphometric similarity strength. 
+
+Validation_LeaveOneFeatureOut.png
+
+- To assess the MIND stability the of morphometric similarity estimation, we reconstructed the morphometric networks for each participant by removing one feature at a time. **a,** We assessed spatial correlations between the four-feature and original five-feature MSS maps at each corresponding time point (with intervals of 0.01 years). All correlation coefficients exceeded 0.95 across the lifespan. Among all the features, cortical thickness had the strongest influence on the morphometric similarity estimation. **b,** Brain maps showing the normative growth of the regional MSS after each feature was removed. yr, year; MSS, morphometric similarity strength; -CT, removed cortical thickness feature; -SA, removed surface area feature; -Vol, removed gray matter volume feature; -MC, removed mean curvature feature; -SD, removed sulcal depth feature.
+
 ## Data：
 
 Growth\_curve\_global\_variance\_of\_MIND.mat
