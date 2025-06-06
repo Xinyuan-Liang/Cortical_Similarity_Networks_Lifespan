@@ -1,5 +1,5 @@
 # Cortical_Similarity_Networks_Lifespan
-﻿This repository provides code and source data that support the findings of the article entitled " Dissecting human cortical similarity networks across the lifespan " by Liang et al. (2024).
+﻿This repository provides code and source data that support the findings of the article entitled " Dissecting human cortical similarity networks across the lifespan " by Liang et al. (2025).
 
 E-mail: <xyliang@mail.bnu.edu.cn>
 
@@ -261,11 +261,8 @@ Support vector regression (SVR)
 Visualization
 
 - plot\_Normative\_Growth\_Curve.m
-- Plot the normative growth curve
 - plot\_Normative\_Growth\_Rate.m
-- Plot the growth rate
 - Plot\_Normative\_Growth\_Brain\_map.m
-- Plot the brain maps of normative growth pattern 
 - Surface-based Desikan-Kiliany 318-parcellation files were downloaded at (https://github.com/RafaelRomeroGarcia/subParcellation\_symmetric)
 - MATLAB R2018b (https://www.mathworks.com/products/matlab.html)
 - BrainNet Viewer toolbox v 20191031 (https://www.nitrc.org/projects/bnv)
