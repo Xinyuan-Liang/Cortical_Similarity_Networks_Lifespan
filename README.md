@@ -1,5 +1,5 @@
 # Cortical_Similarity_Networks_Lifespan
-﻿This repository provides code and source data that support the findings of the article entitled " Dissecting human cortical similarity networks across the lifespan " by Liang et al. (2025).
+﻿This repository provides code and source data that support the findings of the article entitled " Dissecting human cortical similarity networks across the lifespan " by Liang et al., Neuron, 2025. (https://doi.org/10.1016/j.neuron.2025.06.018)
 
 E-mail: <xyliang@mail.bnu.edu.cn>
 
